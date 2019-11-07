@@ -102,8 +102,6 @@ function borrarItem (id) {
 
 	localStorage.setItem('datos', JSON.stringify(empleados));
 
-  	//guardado = localStorage.getItem('datos');
- 	
  	//console.log('objetoObtenidoD: ', JSON.parse(guardado));
 
 	//getData (JSON.parse(guardado));
@@ -119,3 +117,5 @@ function tablaReset (elemento){
 		elem[i].parentNode.removeChild(elem[i])
 	}
 }
+
+
